@@ -12,7 +12,7 @@ def calculate_factorial(n):
     calculate_factorial(5) returns calculate_factorial(5 - 1) * 5 = 4 * 5 = 20. Hence, n becomes 4. calculate_factorial(4) is then calculated.
     calculate_factorial(4) returns calculate_factorial(4 - 1) * 4 * 5 = 3 * 4 * 5. n = 3.
     calculate_factorial(3) = calculate_factorial(3 - 1) * 3 * 4 * 5 = 2 * 3 * 4 * 5. n = 2.
-    calculate_factorial(2) = calculate_factorial(2 - 1) * 1 * 2 * 3 * 4 * 5 = 120. This can't be reduced further, because factorials end when (n - 1) in this case equals either 0 or 1. This triggers the "if" case.
+    calculate_factorial(2) = calculate_factorial(2 - 1) * 1 * 2 * 3 * 4 * 5 = 120. This can't be reduced further, because factorials end when (n - 1) equals either 0 or 1. This triggers the "if" case.
 
     I think I understand recursion a little more now.
     '''
