@@ -3,6 +3,19 @@ print("Witness my attempts to program a couple of factorial functions!")
 fact_input = int(input("Enter an integer: ")) # Takes an integer as user input... is it even possible to calculate the factorial of a floating point number?
 
 def calculate_factorial(n):
+
+    '''
+    Let's think this one through...
+
+    Say n = 5.
+
+    calculate_factorial(5) returns calculate_factorial(5 - 1) * 5 = 4 * 5 = 20. Hence, n becomes 20. calculate_factorial(4) is then calculated.
+    calculate_factorial(4) returns calculate_factorial(4 - 1) * 20 = 60. n becomes 60.
+    calculate_factorial(3) = calculate_factorial(3 - 1) * 60 = 120. n becomes 120.
+    calculate_factorial(2) = calculate_factorial(2 - 1) * 120 = 120. This can't be reduced further, because factorials end when (n - 1) in this case equals either 0 or 1.
+
+    I think I understand recursion a little more now.
+    '''
     if n == 0:
         return 1 # The factorial of 0 and 1 is 1! (not a terrible math joke. Write that down.)
     else:
