@@ -1,4 +1,4 @@
-print("Witness my attempts to program a couple factorial functions!")
+print("Witness my attempts to program a couple of factorial functions!")
 
 fact_input = int(input("Enter an integer: ")) # Takes an integer as user input... is it even possible to calculate the factorial of a floating point number?
 
