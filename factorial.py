@@ -19,7 +19,7 @@ def calculate_factorial(n):
     if n == 0:
         return 1 # The factorial of 0 and 1 is 1! (not a terrible math joke. Write that down.)
     else:
-        return calculate_factorial(n - 1) * n # Factorials are calculated like this: n = n * (n - 1) * (n - 1) * (n - 1)... until "n" reaches 1 (see comment on line 7). This is a recursive implementation.
+        return calculate_factorial(n - 1) * n # Factorials are calculated like this: n = n * (n - 1) * (n - 1) * (n - 1)... until "(n - 1)" equals 1 (see comment on line 7). This is a recursive implementation.
 
 def factorial_loop(n): # This one required some more thinking on my part, due to me being godawful with loops and programming in general.
 
